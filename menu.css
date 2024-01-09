@@ -1,0 +1,97 @@
+
+header {
+    padding: 15px;
+   background-color: rgb(27, 24, 24);
+  }
+
+
+h1 {
+    color: #fff;
+}
+
+h3{
+    color:  #fff;
+}
+p {
+    color: hwb(0 3% 96%)
+    font-style: normal;
+   
+   
+}
+/*-------- les liens ------*/
+nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }   
+  .principale{
+    background-image: url(Im-Vid/brg1.jpeg);
+    background-size: cover;
+    background-color: rgb(24, 23, 23);  
+}
+/*-------- lA MODIFICATION DU MENU ------*/
+
+.table-contenir{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    display: flex;
+    flex-wrap: wrap;
+}
+.table1,.table2{
+    width: 50%;
+}
+.table1{
+    background-color: #f0f0f0;
+}
+.table2{
+    background-color: #e0e0e0;
+}
+.table3,.table4{
+    width: 50%;
+}
+.table3{
+    background-color: #f0f0f0;
+}
+.table4{
+    background-color: #e0e0e0;
+}
+
+/*----------- modification de la commande -------*/
+.commande{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+/*----------- modification du bouton de la commande -------*/
+.bouton{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    border-radius: 4px;
+}
+
+/*----------- modification du pieds de la page -------*/
+.fin{
+    background-color: rgb(88, 86, 86);
+    text-align: center;
+    font-size: large;
+}

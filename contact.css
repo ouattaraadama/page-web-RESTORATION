@@ -1,0 +1,68 @@
+header {
+    padding: 15px;
+   background-color: rgb(27, 24, 24);
+  }
+h1{
+    color: #fff;
+}
+
+h2 {
+    color: #fff;
+}
+
+label{
+    color: #fff;
+}
+p {
+    color: hwb(0 3% 96%)
+    font-style: normal; 
+}
+/*-------- les liens ------*/
+nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }   
+  .principale{
+    background-image: url(Im-Vid/brg1.jpeg);
+    background-size: cover;
+    background-color: rgb(24, 23, 23);  
+}
+/*-------- modification du contact ------*/
+.contact{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #252525;
+    border: 1px solid #0e0a0a;
+}
+ 
+/*----------- modification du bouton de la commande -------*/
+.bouton{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    border-radius: 4px;
+}
+
+/*----------- modification du pieds de la page -------*/
+.fin{
+    background-color: rgb(88, 86, 86);
+    text-align: center;
+    font-size: large;
+}
